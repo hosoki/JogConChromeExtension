@@ -1,0 +1,17 @@
+html, body {
+    height: 450px;
+    width: 550px;
+    background-color: #555555;
+}
+
+h1 {
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+span, th, td {
+    font-size: medium;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+

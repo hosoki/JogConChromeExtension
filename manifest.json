@@ -1,0 +1,27 @@
+{
+  "name": "JogCon",
+  "short_name": "JCon",
+  "version": "0.1.0",
+  "manifest_version": 2,
+  "description": "DIPS2021",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "browser_action": {
+    "default_title": "JogCon",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "./icon/icon16.png",
+    "48": "./icon/icon48.png",
+    "128": "./icon/icon128.png"
+  }
+}
