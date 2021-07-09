@@ -5,7 +5,7 @@
 - Google Chrome
 - Microsoft Edge
 
-## Prepare
+## Installation
 
 ### Google Chrome
 
